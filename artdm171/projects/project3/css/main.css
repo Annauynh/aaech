@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito:wght@300&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+
+footer {
+    background-color: white;
+    margin: 0 -1rem;
+    padding: 1rem;
+}
+
+h1, h2, h3, span {
+    font-family: 'Libre Baskerville', serif;
+}
+
+h3, .blockquote {
+    font-style: italic;
+}
+
+img {
+    border-radius: 20px;
+}
+
+input {
+    border: 4px solid #355BA1;
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 5px 0;
+    outline: none;
+    width: 70%;
+    height: 50px;
+}
+
+body {
+    background-image: url(../images/seigaiha.png);
+    background-attachment: fixed;
+    padding: 1px 2rem;
+}
+
+span {
+    font-size: 22px;
+}
+
+.banner img {
+    border-radius: 0;
+    margin: 0 -2.5rem;
+    max-height: 400px;
+    width: 100vw;
+}
+
+.banner figure {
+    margin: 0;
+}
+
+.blockquote, figcaption {
+    color: gray;
+}
+
+.bump img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.caldera {
+    background-image: url(../images/maug-caldera.jpg);
+    background-size: cover;
+    padding: 1rem;
+    margin: 0 -2.5rem;
+}
+
+.caldera p {
+    background-color: rgba(255, 255, 255, .5);
+    padding: 1rem;
+}
+
+.island img {
+    display: block;
+    margin: 0 auto;
+    min-width: 50%;
+}
+
+.organizations img {
+    display: block;
+    margin: 0 auto;
+    max-width: 60%;
+    padding: 10px;
+}
+
+.units {
+    display: flex;
+    flex-direction: column;
+}
+
+.units img {
+    margin: 0 auto;
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+
+.units ol {
+    margin-top: -1rem;
+}
+
+.units ul {
+    list-style: none;
+}
+
+/*Header*/
+
+h1 {
+    border-top: 4px solid white;
+    font-size: 36px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+header {
+    background-color: #355BA1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 -2rem;
+    padding: 1px 0 25px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+}
+
+nav {
+    border-bottom: 4px solid white;
+    padding-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+nav li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+}
+
+/*Table*/
+
+table {
+    border-spacing: 0px;
+    font-size: 14px;
+    margin: 0 0 0 -1rem;
+}
+
+td, th {
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    padding: 2px;
+}
+
+tfoot td {
+    background-color: #E1E6F1;
+}
+
+tfoot td:first-child {
+    border-bottom-left-radius: 20px;
+}
+
+tfoot td:last-child {
+    border-bottom-right-radius: 20px;
+}
+
+th {
+    background-color: #BBC8E0;
+}
+
+th:first-child {
+    border-radius: 20px 0 0 0;
+}
+
+th:last-child {
+    border-radius: 0 20px 0 0;
+}
+
+tr:nth-child(even) {
+    background-color: #E1E6F1;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+/*Newsletter and Contact Forms*/
+
+aside hr {
+    border: 2px solid white;
+    margin: 0 1rem;
+    margin-bottom: 20px;
+}
+
+.contact {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.contact, .newsletter {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 36px;
+    margin: 0 auto;
+    max-height: 300px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.contact p, .newsletter p {
+    border-bottom: 4px solid #355BA1;
+    margin: 1rem -1.5rem;
+}
+
+.container {
+    background-color: #355BA1;
+    box-shadow: 2px 2px 5px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px 1px;
+}
+
+.newsletter {
+    margin-bottom: 20px;
+    padding: 20px 20px 1px;
+}
+
+.newsletter input {
+    margin: 20px;
+}
+
+.submit {
+    background-color: #355BA1;
+    color: white;
+    cursor: pointer;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+/*Bottom Nav*/
+
+.bnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.next {
+    margin-left: auto;
+}
+
+/*Links*/
+
+.active a:any-link {
+    background-color: white;
+    border-radius: 20px;
+    color: #355BA1;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #355BA1;
+}
+
+.download {
+    text-align: right;
+}
+
+.inactive a:any-link {
+    color: white;
+    text-decoration: none;
+}
+
+.inactive a:hover {
+    color: #E0B707;
+    text-decoration: underline;
+}
+
+main a:any-link, td a:any-link, .next a:any-link, .back a:any-link, footer a:any-link {
+    color: #AB8C07;
+}
+
+/*Override CSS*/
+
+.noaa img {
+    max-width: 30%;
+}
+
+.mtmac img {
+    min-width: 100%;
+}
+
+/*Media Queries*/
+
+@media (min-width: 1120px) {
+    
+    body {
+        font-size: 125%;
+    }
+    
+    figcaption {
+        padding: 0 0 10px 0;
+    }
+    
+    footer, hr {
+        clear: both;
+    }
+    
+    .header-container {
+        align-items: flex-end;
+        border-bottom: 4px solid white;
+        border-top: 4px solid white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 1.5rem;
+        padding: 0 1rem 1rem;
+    }
+
+    h1 {
+        border: none;
+        margin-bottom: auto;
+        margin-right: -0.5rem;
+        text-align: left;
+    }
+    
+    header img {
+        height: 100%;
+        margin: auto 0;
+        margin-right: 0.5rem;
+        max-width: 165px;
+    }
+    
+    main {
+        padding: 0 3rem;
+    }
+    
+    nav {
+        border: none;
+    }
+    
+    nav ul {
+        flex-direction: row;
+        margin-bottom: -10px;
+    }
+    
+    td, th {
+        padding: 10px;
+    }
+    
+    .banner img {
+        min-height: 60vh;
+        margin: 0 0 0 -5.5rem;
+        max-height: 90vh;
+    }
+    
+    .bump img {
+        max-width: 100%;
+    }
+    
+    .caldera {
+        background-size: cover;
+    }
+    
+    .caldera p {
+        max-width: 700px;
+    }
+     
+    .download {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logo {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    .mtmac {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-top: 10px;
+    }
+    
+    .mtmac img {
+        height: 100%;
+        min-width: 50%;
+        margin: auto;
+    }
+    
+    .units figure {
+        min-width: 50%;
+    }
+    
+    #home aside {
+        float: right;
+        margin: 0 auto;
+        padding-top: 2rem;
+        min-width: 25vw;
+    }
+
+    #home main { 
+        float: left;
+        padding: 1rem 0rem;
+        max-width: 65vw;
+    }   
+    
+    #home .units {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #home .units img {
+        height: 100%;
+        padding-left: 10px;
+        max-width: 350px;
+    }
+    
+    #objects .volcano {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #objects .champagne {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    #objects .island {
+        display: flex;
+        flex-direction: row;
+    }
+    
+}
+    
+
+

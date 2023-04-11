@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quicksand&display=swap');
+
+body {
+    background-attachment: fixed;
+    background-image: url(../images/aesthetic.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1, h2, h3 {
+    font-family: 'Press Start 2P', cursive;
+    line-height: 150%;
+    text-shadow: 2px 2px cyan, -2px -2px red;
+}
+
+hr {
+    border-top: 1px dashed white;
+}
+
+main {
+    margin-top: 13rem;
+}
+
+p {
+    color: #3C273C;
+    text-indent: 2rem;
+}
+
+p, h2 {
+    padding: 0 10px;
+}
+
+p, li {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 120%;
+}
+
+.projects h2, .labs h2 {
+    text-align: center;
+}
+
+/*Header*/
+
+h1 {
+    border-top: 1px dashed white;
+    margin-top: 15px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+header {
+    background-color: #f6acbc;
+    background-blend-mode: color-burn;
+    background-image: url(../images/paper.jpeg);
+    box-shadow: 2px 2px 10px #c26c9d;
+    margin: 0 -8px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    border-bottom: 1px dashed white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav li {
+    padding-bottom: 10px;
+}
+
+/*Links*/
+
+a {
+    color: #faf1f2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-shadow: 1px 1px cyan, -1px -1px red;
+}
+
+nav a:hover {
+    text-decoration: overline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+ul {
+    padding-left: 0;
+}
+
+/*Footer*/
+
+footer {
+    margin: 0 -8px -20px;
+    text-align: center;
+}
+
+footer p {
+    padding-bottom: 10px;
+}
+
+/*Media Queries*/
+
+@media (min-width: 650px) {
+    
+    h1 {
+        padding: 6px 8px;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+            "content content content projects"
+            "content content content labs";
+        margin-top: 10rem;
+        padding: 1rem;
+    }
+    
+    .content {
+        grid-area: content;
+        margin-right: 20px;
+    }
+    
+    .labs, .projects {
+        background-color: rgba(246,172,188, .6);
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+    
+    .labs {
+        align-self: center;
+        grid-area: labs;
+        margin-top: 25%;
+        max-height: 220px;
+    }
+    
+    .projects {
+        align-self: center;
+        grid-area: projects;
+        max-height: 330px;
+        padding: 10px;
+    }
+}

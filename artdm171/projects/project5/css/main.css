@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Zilla+Slab+Highlight&family=Zilla+Slab:wght@300&display=swap');
+
+a {
+    color: #F68D8D;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #F0F0F0;
+    color: #3C1C02;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin: -2.3rem -0.2rem;
+}
+
+footer, main {
+    padding: 1rem
+}
+
+h2 {
+    clear: both;
+    display: table;
+    border-bottom: 2px solid #3C1C02;
+    font-family: 'Zilla Slab Highlight', serif;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+h3 {
+    padding-bottom: 1rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+strong {
+    font-size: 18px;
+}
+
+.blockquote {
+    box-shadow: 0px 3px 3px rgba(0, 0 , 0, .3);
+    background-blend-mode: multiply;
+    background-color: #F68D8D;
+    background-image: url(../images/gplaypattern_@2X.png);
+    border-radius: 4px;
+}
+
+.blockquote p {
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.bottom-nav {
+    display: block;
+    padding: 1rem 3rem;
+    text-align: end;
+}
+
+.map {
+    margin: 10px auto;
+    width: 95vw;
+}
+
+
+/*Home Page*/
+
+#home aside {
+    height: 100%;
+}
+
+/*Artists Page*/
+
+#artists img {
+    border-radius: 500px;
+    max-height: 450px;
+    padding: 10px;
+    width: 450px;
+}
+
+/*News Page*/
+
+#news img {
+    display: block;
+    margin: 0 auto;
+    max-height: 400px;
+    min-width: 400px;
+    object-fit: contain;
+}
+
+/*Navigation*/
+
+@media (max-width: 850px) {
+    
+    .close {
+        color: #3C1C02;
+    }
+
+    .main-nav {
+        text-align: right;
+        position: fixed;
+        z-index: 10;
+        background: rgba(255, 255, 255);
+        padding: 1rem;
+        width: 30vw;
+        height: 100vh;
+        right: -110vw;
+        top: 0;
+        transition: right 0.35s ease; 
+    }
+
+    .menu-btn {
+        font-size: 40px;
+        position: relative;
+        text-decoration: none;
+        top: 0rem;
+    }
+    
+    .open {
+        color: white;
+        display: block;
+        padding-right: 1rem;
+        text-align: right;
+        top: -14rem;
+    }
+
+    .show {
+        right: 0rem;
+        transition: right 0.35s ease;
+    }
+}
+    
+nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+}
+
+nav a {
+    color: #00e087;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#home .home-pg, 
+#exhibitions .exhibitions-pg, 
+#artists .artists-pg, 
+#aggra .artists-pg,
+#news .news-pg, 
+#about .about-pg {
+    color: #F68D8D;
+    text-decoration: underline;
+}
+
+/*Gallery Title*/
+
+h1 {
+    font-family: 'Zilla Slab', serif;
+    font-size: 54px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 a {
+    color: #00e087;
+    text-decoration: none;
+}
+
+header {
+    background-blend-mode: multiply;
+    background-color: #00e087;
+    background-image: url(../images/gplaypattern_@2X.png);
+}
+
+.box {
+    box-shadow: 0px 3px 3px rgba(0, 0 , 0, .3);
+    height: 80px;
+    left: 20px;
+    position: relative;
+    top: 50px;
+    transform: rotate(5deg);
+    width: 310px;
+    z-index: 3;
+}
+
+.black {
+    background-color: #3C1C02;
+    left: 2rem;
+    top: -50px;
+    z-index: 2;
+}
+
+.pink {
+    background-color: #F68D8D;
+    height: 70px;
+    left: 2rem;
+    top: -6rem;
+    transform: rotate(-8deg);
+    width: 300px;
+    z-index: 1;
+}
+
+.white {
+    background-color: white;
+    border-radius: 4px;
+    height: 85px;
+    width: 310px;
+}
+
+/*Form*/
+
+aside {
+    height: 320px;
+    margin: 0 auto;
+    width: 450px;
+}
+
+aside p, h4 {
+    margin: 1rem;
+    padding: 4px;
+}
+
+aside .black {
+    height: 100%;
+    left: -10px;
+    top: -10px;
+    transform: rotate(-4deg);
+    width: 450px;
+    z-index: 1;
+}
+
+aside .green {
+    background-color: #00e087;
+    height: 115%;
+    top: -310px;
+    transform: rotate(-4deg);
+    width: 105%;
+    z-index: 2;
+}
+
+aside .white {
+    box-shadow: none;
+    height: 90%;
+    left: 45px;
+    top: -638px;
+    width: 90%;
+}
+
+h4 {
+    color: #F68D8D;
+    font-family: 'Zilla Slab', serif;
+    font-size: 26px;
+    margin: 0 1rem;
+}
+
+.content {
+    display: block;
+    transform: rotate(-5deg);
+}
+
+.form {
+    border: 2px solid #F68D8D;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-left: 1.5rem;
+    padding: 5px;
+    width: 200px;
+}
+
+.submit-btn {
+    background-color: #00e087;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-left: 8px;
+    padding: 6px;
+}
+
+#about footer {
+    margin-top: 3rem;
+}
+
+@media (min-width: 850px) {
+    
+    article {
+        padding: 1rem;
+    }
+    
+    article section {
+        padding: 0 3rem;
+    }
+    
+    aside {
+        grid-area: aside;
+    }
+    
+    footer {
+        grid-area: footer;
+    }
+
+    header {
+        grid-area: header;
+    }
+    
+    img {
+        grid-area: img;
+    }
+    
+    main {
+        grid-area: main;
+    }
+
+    /*Navigation*/
+    
+    nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .close, .open {
+        display: none;
+    }
+    
+    .nav-wrap {
+        background-color: white;
+        bottom: 20px;
+        box-shadow: -1px 3px 3px rgba(0, 0 , 0, .3);
+        float: right;
+        padding-right: 10px;
+        position: relative;
+        right: 2rem;
+        top: -6rem;
+        width: 450px;
+    }
+    
+    /*Home Page*/
+    
+    #home .home-wrap {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+        "header header header header"
+        "nav nav nav nav"
+        "img img img img"
+        "main main main aside"
+        "footer footer footer footer";    
+    }
+    
+    #home aside {
+        width: 100%;
+    }
+    
+    /*Exhibitions Page*/
+    
+    .left {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    .right {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #exhibitions img {
+        height: 100%;
+        max-width: 50vw; 
+    }
+    
+    /*Artists Page*/
+    
+    #artists ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    #artists li {
+        padding: 10px;
+    }
+    
+    #aggra img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    #aggra main {
+        padding: 1rem 9rem;
+    }
+    
+    /*News Page*/
+    
+    #news .news-grid {
+        display: grid;
+        grid-gap: 0.5rem;
+        grid-template-columns: repeat(2, 1fr);   
+        justify-content: center;
+    }
+    
+    #news img {
+        height: 500px;
+        max-width: 300px;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    /*About*/
+    
+    .map {
+        padding: 0 1rem;
+        width: 30vw;
+    }
+    
+    .map-wrap {
+        display: flex;
+        flex-direction: row;
+        line-height: 3rem;
+    }
+    
+    #about main {
+        padding: 1rem 9rem;
+    }
+    
+    /*Override*/
+    
+    #home .banner img, #exhibitions .banner img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        object-fit: contain;
+        position: relative;
+        top: -2.65rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    #news .last {
+        grid-column-start: 2;
+    }
+    
+    #news .news-grid {
+        display: grid;
+        grid-gap: 0.5rem;
+        grid-template-columns: repeat(3, 1fr);   
+    }   
+}
+
+    

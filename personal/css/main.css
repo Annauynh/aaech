@@ -1,0 +1,54 @@
+body {
+    background-color: #c69683;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+nav img {
+    width: 12vw;
+}
+
+.about-nav img {
+    margin-left: 10%;
+    width: 85%;
+}
+
+.home-nav img {
+    margin-left: 25%;
+    width: 85%;
+}
+
+.merch-nav img {
+    margin-left: 5%;
+    width: 85%;
+}
+
+#manifesto nav {
+    margin-top: 59%;
+    margin-right: 4%;
+    position: absolute;
+}
+
+.body-img img {
+    width: 98.9vw;
+}
+
+.top-button {
+    bottom: 10px;
+    position: fixed;
+    right: 10px;
+}
+
+.top-button img {
+    width: 70px;
+}

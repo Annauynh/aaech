@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito:wght@300&display=swap');
+
+.contact {
+    background-color: lightgray;
+    height: 20rem;
+    width: 100%;
+}
+
+.newsletter {
+    background-color: lightgray;
+    height: 20rem;
+    width: 100%;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 150%;
+}
+
+div {
+    background-color: lightgray;
+    height: 20rem;
+    width: 100%;
+    min-width: 15rem;
+}
+
+footer {
+    padding: 1rem 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style-type: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+nav li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+}
+
+.caldera {
+    background-color: lightgray;
+    padding: 1rem
+    /*replace with background image*/
+}
+
+.caldera p {
+    background-color: rgba(255, 255, 255, .5);
+    padding: 1rem;
+}
+
+.next p {
+    text-align: end;
+    padding: 0 1rem;        
+}
+
+.volcano {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+@media (min-width: 700px) {
+    
+.main {
+    float: left;
+    width: 80%;
+}
+
+.contact, .newsletter {
+    background-color: lightgray;
+    float: right;
+    height: 20rem;
+    width: 20%;
+}
+
+footer, .next {
+    clear: both;
+}
+    
+body {
+    font-size: 125%;
+}
+
+main { 
+    padding: 1rem 5rem;
+}
+
+header {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+
+nav ul {
+    flex-direction: row;
+}
+
+.caldera p {
+    max-width: 700px;
+}
+
+.next p {
+    padding: 0 5rem;
+}
+
+.volcano {
+    padding: 0 0rem 1rem;
+}

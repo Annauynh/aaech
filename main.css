@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+* { 
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(84,94,94);
+    background: linear-gradient(180deg, rgba(84,94,94,1) 0%, rgba(39,148,148,1) 100%);
+    margin: 1rem;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+hr {
+    width: 50vw;
+}
+
+header {
+    padding: 1rem 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+li {
+    margin: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+/*Recent Work*/
+
+.recent .soon {
+    width: 90vw;
+}
+
+.recent .soon h2 {
+    line-height: 330px;
+    text-align: center;
+}
+
+/*Quick Actions*/
+
+.a-box {
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 330px;
+}
+
+.soon {
+    background-color: black;
+    border-radius: 20px;
+    height: 330px;
+    margin: 0 auto;
+    opacity: 50%;
+    width: 330px;
+}
+
+.soon h2 {
+    line-height: 260px;
+    vertical-align: middle;
+}
+
+.quick {
+    padding: 6rem 0 7rem;
+}
+
+.quick h2 {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.quick img {
+    display: block;
+    margin: 0 auto;
+    max-width: 330px;
+}
+
+
+/*Status*/
+
+.status {
+    padding: 5rem 10px;
+    text-align: center;
+}
+
+.status a {
+    font-size: 18px;
+}
+
+.status h1 {
+    margin: 3rem 0;
+}
+
+.status h2 {
+    color: #33FF99;
+}
+
+.recent-btn {
+    border: 1px solid #33FF99;
+    border-radius: 100px;
+    box-shadow: 0 0 10px #33FF99;
+    color: #33FF99;
+    margin: 0 auto;
+    padding: 20px 5px;
+    width: 160px;
+}
+
+/*Logo*/
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo h1 {
+    font-size: 48px;
+    padding-left: 2rem;
+    text-align: center;
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+/*Portfolio*/
+
+#portfolio {
+    display: grid;
+}
+
+#portfolio h1 {
+    text-align: center;
+}
+
+#portfolio img {
+    margin: 1rem auto;
+    max-width: 35vw;
+}
+
+.double {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.single {
+    display: flex;
+    margin: 0 auto;
+}
+
+/*Navigation*/
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.main-nav {
+    height: 0vh;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.35s ease; 
+    }
+
+.menu-btn {
+        font-size: 40px;
+        position: relative;
+        text-decoration: none;
+        top: 0rem;
+    }
+
+.open {
+        color: white;
+        display: block;
+        padding-bottom: 2rem;
+        text-align: center;
+        top: 1rem;
+    }
+
+.show {
+        height: 35vh;
+        transition: 0.35s ease;
+    }
+
+@media (min-width: 850px) {
+    
+    header {
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        justify-content: space-between;
+        padding-bottom: 3rem;
+    }
+    
+    .disappear {
+        display: none;
+    }
+    
+    .logo  {
+        flex-direction: row;
+        max-height: 25vh; 
+    }
+    
+    .status {
+        background-blend-mode: multiply;
+        background-color: #488484;
+        background-image: url(artdm171/images/triangles@3x.png);
+        background-size: cover;
+        border-radius: 20px;
+        box-shadow: 3px 5px 10px rgba(0, 0, 0, .75);
+        height: 370px;
+        margin: 0rem 0 8rem;
+        padding-top: 10rem;
+    }
+    
+    .quick {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .quick img, .quick .soon {
+        max-height: 250px;
+        max-width: 250px;
+    }
+    
+    .quick .soon h2 {
+        line-height: 22vh;
+    }
+    
+/*Navigation*/
+
+    nav ul {
+        flex-direction: row;
+        margin-top: 2rem;
+    }
+    
+    .close, .open {
+        display: none;
+    }
+    
+    .main-nav {
+        overflow: visible;
+    }
+    
+}
+
+/*Portfolio*/
+
+#portfolio img {
+    display: block;
+    margin: 0 auto;
+}
+
+@media (min-width: 1220px) {
+    .status {
+        height: 500px;
+        padding-top: 18rem;
+    }
+    
+    .quick img, .quick .soon {
+        max-height: 330px;
+        max-width: 330px;
+    }
+    
+    .quick .soon h2 {
+        line-height: 32vh;
+    }
+}

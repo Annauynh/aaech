@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap');
+
+body {
+    background: url(../images/snow.png);
+    font-family: 'Playfair Display', serif;
+}
+
+figcaption {
+    color: gray;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+header {
+    text-align: center;
+    border-top: 1px #aaa solid;
+}
+
+header img {
+    border-radius: 50rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+    align-content: center;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 1rem;
+}
+
+main {
+    background: rgba(255, 255, 255, .5);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+nav a {
+    margin-right:1.5rem;
+}
+
+nav li {
+    display: inline-block
+}
+
+section {
+    border-top: 1px #aaa solid;
+    padding: 3rem;
+}
+
+.observatory {
+    background: rgba(0,0,0,.2); 
+}
+
+table {
+    border: 1px solid black;
+    max-width: 70rem;
+    margin: 0 auto;
+    min-height: 25rem;
+    width: 100%;
+}
+
+table, th, td {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-collapse: collapse;
+}
+
+td:nth-child(odd) {
+    background: rgba(0, 233, 255, .1);
+}
+
+td:nth-of-type(1) {
+    background: rgba(0, 0, 0, .1);
+}
+
+th, td {
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background: rgba(0, 0, 0, .2);
+}
